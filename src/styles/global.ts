@@ -13,13 +13,14 @@ export default createGlobalStyle`
   }
 
   body {
-    font: 14px, 'Roboto', sans-serif;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
     background: #ecf1f8;
     color: #333;
     -webkit-font-smoothing: antialiased !important;
   }
 
-  ul: {
+  ul {
     list-style: none;
   }
 `;
