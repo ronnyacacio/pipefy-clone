@@ -1,11 +1,12 @@
 import React from 'react';
 
-import { Header } from '../../components';
+import { Header, Board } from '../../components';
 
 const Home: React.FC = () => {
   return (
     <>
       <Header />
+      <Board />
     </>
   );
 };
