@@ -54,6 +54,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🔨 Deploy Netlify
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/bc171791-4f52-464c-a4d1-204b0da636f5/deploy-status)](https://app.netlify.com/sites/ronnyacacio-pipefy-clone/deploys)
+
 <br />
 
 <p align="center">
