@@ -32,7 +32,7 @@
 
 ## 💻 Projeto
 
-Esse projeto foi feito para treinar a minha habilidade de criação de UI's com ReactJS e CSS, foi escolhido o pipefy por conta do seu recurso drag'n drop, sendo assim seria muito produtivo realizar esse clone! Acesse aqui [Pipefy-clone](#)
+Esse projeto foi feito para treinar a minha habilidade de criação de UI's com ReactJS e CSS, foi escolhido o pipefy por conta do seu recurso drag'n drop, sendo assim seria muito produtivo realizar esse clone! Acesse aqui [Pipefy-clone](https://ronnyacacio-pipefy-clone.netlify.app/)
 
 <br />
 
