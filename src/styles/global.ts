@@ -12,7 +12,7 @@ export default createGlobalStyle`
     height: 100%;
   }
 
-  body: {
+  body {
     font: 14px, 'Roboto', sans-serif;
     background: #ecf1f8;
     color: #333;
