@@ -1,13 +1,10 @@
 import styled from 'styled-components';
 
-import { PropsContainer } from '.';
-
-export const Container = styled.div<PropsContainer>`
-  height: 100%;
+export const Container = styled.div`
   padding: 0 15px;
-  opacity: ${({ done }) => (done ? 0.6 : 1)};
-
+  height: 100%;
   flex: 0 0 320px;
+  opacity: ${props => props.done ? 0.6 : 1};
 
   & + div {
     border-left: 1px solid rgba(0, 0, 0, 0.05);
@@ -17,7 +14,7 @@ export const Container = styled.div<PropsContainer>`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 30px;
+    height: 42px;
 
     h2 {
       font-weight: 500;
@@ -26,8 +23,8 @@ export const Container = styled.div<PropsContainer>`
     }
 
     button {
-      width: 30px;
-      height: 30px;
+      width: 42px;
+      height: 42px;
       border-radius: 18px;
       background: #3b5bfd;
       border: 0;
@@ -36,6 +33,6 @@ export const Container = styled.div<PropsContainer>`
   }
 
   ul {
-    margin-top: 20px;
+    margin-top: 30px;
   }
 `;

@@ -1,8 +1,8 @@
-import styled from 'styled-components';
+import styled, { css } from 'styled-components';
 
 export const Container = styled.div`
   position: relative;
-  background: #fff;
+  background: #FFF;
   border-radius: 5px;
   margin-bottom: 10px;
   padding: 15px;
@@ -21,19 +21,31 @@ export const Container = styled.div`
     line-height: 20px;
   }
 
-  > img {
+  img {
     width: 24px;
     height: 24px;
     border-radius: 2px;
     margin-top: 5px;
   }
+
+  ${props => props.isDragging && css`
+    border: 2px dashed rgba(0, 0, 0, 0.2);
+    padding-top: 31px;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+    cursor: grabbing;
+
+    p, img, header {
+      opacity: 0;
+    }
+  `}
 `;
 
 export const Label = styled.span`
   width: 10px;
   height: 10px;
   border-radius: 2px;
-  background: ${({ color }) => color};
-
   display: inline-block;
+  background: ${props => props.color};
 `;
